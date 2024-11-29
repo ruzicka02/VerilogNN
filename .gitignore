@@ -3,3 +3,9 @@
 a.out
 
 *.sh
+
+.venv/
+**/__pycache__/
+
+# .xml files are created when running cocotb tests
+*.xml

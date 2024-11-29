@@ -1,0 +1,17 @@
+FloatingAddition:
+  - FloatingCompare
+FloatingCompare: []
+FloatingDivision:
+  - FloatingAddition
+  - FloatingMultiplication
+FloatingMultiplication: []
+VectorAddition:
+  - FloatingAddition
+VectorAdditionFlex:
+  - FloatingAddition
+VectorMultiplicationPar:
+  - FloatingAddition
+  - FloatingMultiplication
+VectorMultiplicationFlex:
+  - FloatingAddition
+  - FloatingMultiplication
